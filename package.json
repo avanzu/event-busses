@@ -1,5 +1,5 @@
 {
-  "name": "@avanzu/event-bus",
+  "name": "event-busses",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

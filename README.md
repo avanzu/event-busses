@@ -5,7 +5,7 @@ Generates a collection of named event emitters that allow to configure a conveni
 In order to generate the default busses, simply call the bus factory. The factory will always generate a `system` and `domain` bus.
 
 ```js
-const busBuilder    = require('@avanzu/event-busses')
+const busBuilder    = require('event-busses')
 const defaultBusses = busBuilder()
 const app           = {} 
 const busses        = defaultBusses(app)
