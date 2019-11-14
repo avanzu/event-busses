@@ -1,0 +1,21 @@
+{
+  "name": "@avanzu/event-bus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=development npm run eslint && NODE_ENV=test npm run jest",
+    "eslint": "eslint . --config .eslintrc.json",
+    "jest": "jest --config jest.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.9.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
+}
